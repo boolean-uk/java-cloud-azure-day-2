@@ -77,3 +77,14 @@ The steps to work on today are as follows:
 
 Screenshot each stage and add them into here so that you can evidence completing the steps necessary
 
+## links
+
+![alt text](Added-azure-environment-variables.png)
+
+![alt text](backend-deployed.png)
+
+![alt text](Insomnia-result.png)
+
+![alt text](Frontend.png)
+
+![alt text](Frontend-deployed.png)
