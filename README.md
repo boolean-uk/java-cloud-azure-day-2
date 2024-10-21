@@ -77,3 +77,38 @@ The steps to work on today are as follows:
 
 Screenshot each stage and add them into here so that you can evidence completing the steps necessary
 
+
+# Submission
+
+
+1. Got the Subscription Key from Azure.
+
+The code for the backend and the configuration is in the repo for Azure Day 1.
+2. Added `id "com.microsoft.azure.azurewebapp" version "1.10.0"` under `Plugin` in `build.gradle
+3. Added the following to `build.gradle`
+```
+azurewebapp {
+	subscription = '<your subscription id>'
+        resourceGroup = 'students_infrastructure'
+	appName = 'Emma-Lovgren-App'
+	appServicePlanName = 'ASP-studentsinfrastructure-a6a0'
+	pricingTier = 'B3'
+	region = 'northeurope'
+	runtime {
+		os = 'Linux'
+		webContainer = 'Java SE' // 'Java SE' if you want to run an executable jar
+		javaVersion = 'Java 21'
+	}
+	appSettings {
+		alwaysOn = "off"
+	}
+	auth {
+		type = 'azure_cli' // support azure_cli, oauth2, device_code and service_principal
+	}
+}
+```
+4. Run `az login` and `./gradlew azureWebAppDeploy`
+5. After a couple of attempts and timeouts, Build finally succesfull:
+![](/images/Day2_01_timeout_vuildSuccessful.png)
+6. Checked if the endpoint worked in the browser:
+![](/images/Day2_02_inBrowser.png)
