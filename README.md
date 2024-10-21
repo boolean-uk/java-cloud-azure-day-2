@@ -1,4 +1,4 @@
-# Java Cloud - Azure - Day 2
+# Java Cloud - Azure - Day 2 
 
 ## Learning Objectives
 
