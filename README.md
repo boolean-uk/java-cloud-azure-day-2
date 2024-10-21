@@ -1,4 +1,8 @@
 # Java Cloud - Azure - Day 2
+## Dag Andreas Completed Core and Extension:
+ *[x] backend api
+ *[x] add azure db
+ *[x] add frontend to azure
 
 ## Learning Objectives
 
