@@ -31,7 +31,7 @@ azurewebapp {
 	subscription = '<Insert Subscription Here>'
 	resourceGroup = 'students_infrastructure'
 	appName = '<App Name Goes Here>'
-	pricingTier = 'F1'
+	pricingTier = 'B3'
 	region = 'northeurope'
 	appServicePlanName = 'ASP-studentsinfrastructure-a6a0'
 	runtime {
