@@ -4,6 +4,9 @@ Uploaded my backend (from java-cloud-azure-day-1) to Azure with NeonDB.
 URL: http://leos-music.azurewebsites.net/artists
 
 
+I uploaded a frontend using the API url:
+https://red-cliff-0b48a9510.5.azurestaticapps.net/
+
 
 ## Learning Objectives
 
