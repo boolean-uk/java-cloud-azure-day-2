@@ -84,3 +84,7 @@ Screenshot each stage and add them into here so that you can evidence completing
 ![alt text](backend-deployed.png)
 
 ![alt text](Insomnia-result.png)
+
+![alt text](Frontend.png)
+
+![alt text](Frontend-deployed.png)
