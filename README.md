@@ -1,5 +1,5 @@
 # Java Cloud - Azure - Day 2
-![alt text](azure-day-2-backend.png)
+![alt text](Azure-day-2-backend.png)
 ## Learning Objectives
 
 - Deploy a Spring App to Azure Web Services
