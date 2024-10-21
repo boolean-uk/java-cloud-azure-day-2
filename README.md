@@ -1,3 +1,8 @@
+# Core screenshot
+![core_jokes.png](core_jokes.png)
+# Extension screenshots
+![games_frontend.png](games_frontend.png)
+![games_api.png](games_api.png)
 # Java Cloud - Azure - Day 2
 
 ## Learning Objectives
