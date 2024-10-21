@@ -1,5 +1,10 @@
 # Java Cloud - Azure - Day 2
 
+Uploaded my backend (from java-cloud-azure-day-1) to Azure with NeonDB.
+URL: http://leos-music.azurewebsites.net/artists
+
+
+
 ## Learning Objectives
 
 - Deploy a Spring App to Azure Web Services
