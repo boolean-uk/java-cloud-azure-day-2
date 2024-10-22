@@ -80,7 +80,7 @@ Screenshot each stage and add them into here so that you can evidence completing
 
 # Submission
 
-
+### Set up Web App on Azure
 1. Got the Subscription Key from Azure.
 
 The code for the backend and the configuration is in the repo for Azure Day 1.
@@ -112,3 +112,32 @@ azurewebapp {
 ![](/images/Day2_01_timeout_vuildSuccessful.png)
 6. Checked if the endpoint worked in the browser:
 ![](/images/Day2_02_inBrowser.png)
+
+### Change application.yml and add Environment Variables to Azure
+
+NOTE: I didn't get the below to work, so I reversed it into the old version of the application.yml file with no variables, on teacher recommendation.  
+
+1. Replace the db configurations for the spring part with variable names, for example:
+```
+spring:
+  datasource:
+    url: jdbc:postgresql://${CUSTOMCONNSTR_neondb}:5432/neondb
+    username: ${CUSTOMCONNSTR_usernamedb}
+    password: ${CUSTOMCONNSTR_passworddb}
+    hikari:
+      maximum-pool-size: 3
+      minimum-idle: 3
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+    show-sql: true 
+```
+2. Go to Home/students_infrastructure/Emma-Lovgren-App.
+2. Go to Settings/Environment variables.
+3. Go to the `Connection strings` tab, and add the variable names and corresponding values, set the type to Postgres:
+![](images/Day2_02-1_addConnection.png)
+![](images/Day2_02-2_addDetails.png)
